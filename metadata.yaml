@@ -18,6 +18,8 @@ doc_title: "Approximating Pre-calculated Sky Brightness with Zernike Coefficient
 # Author names, ordered as a list. Each author name should be formatted as 'First Last'
 authors:
   - "Eric Neilsen"
+  - "Lynne Jones"
+  - "Peter Yoachim"
 
 # Current document revision date, YYYY-MM-DD
 # Only set this field if you need to manually fix the revision date;
@@ -34,7 +36,7 @@ authors:
 # doi: 10.5281/zenodo.#####
 
 # Copyright statement
-copyright: "2020, Association of Universities for Research in Astronomy, Inc. (AURA)"
+copyright: "2020, Fermi Research Alliance, LLC."
 
 # Description. A short, 1-2 sentence statemement used by document indices.
 description: "Scheduling simulations currently use ESO's skycalc software to pre-calculate sky brightness for the survey. The current storage format, healpix maps of the sky sampled every few minutes, results in inconveniently large files of cached data. Here, I present an exploration of the use of Zernike polynomial coefficients as an alternative."
